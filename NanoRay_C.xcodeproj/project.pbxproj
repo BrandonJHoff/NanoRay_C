@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2DD3D815E47D9B00F1C8A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2DD3D715E47D9B00F1C8A2 /* QuartzCore.framework */; };
+		0B2DD3DA15E47F5900F1C8A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2DD3D915E47F5900F1C8A2 /* CoreGraphics.framework */; };
+		0BAD5A3715E17C3E004BE083 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAD5A3615E17C3E004BE083 /* Cocoa.framework */; };
+		0BAD5A4115E17C3E004BE083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BAD5A3F15E17C3E004BE083 /* InfoPlist.strings */; };
+		0BAD5A4315E17C3E004BE083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD5A4215E17C3E004BE083 /* main.m */; };
+		0BAD5A4715E17C3E004BE083 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0BAD5A4515E17C3E004BE083 /* Credits.rtf */; };
+		0BAD5A4A15E17C3E004BE083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD5A4915E17C3E004BE083 /* AppDelegate.m */; };
+		0BAD5A4D15E17C3F004BE083 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BAD5A4B15E17C3F004BE083 /* MainMenu.xib */; };
+		0BAD5A5415E17C4D004BE083 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAD5A5315E17C4D004BE083 /* OpenGL.framework */; };
+		0BAD5A5B15E17D76004BE083 /* OpenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD5A5A15E17D76004BE083 /* OpenView.m */; };
+		0BAD5A5D15E17DCC004BE083 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAD5A5C15E17DCC004BE083 /* Quartz.framework */; };
+		0BAD5A6315E17F1B004BE083 /* OpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD5A6215E17F1B004BE083 /* OpenViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B2DD3D715E47D9B00F1C8A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0B2DD3D915E47F5900F1C8A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B42227B15F413A300DB7066 /* NRPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRPoint.h; sourceTree = "<group>"; };
+		0B53B3A915EDA754001D8ACC /* NROctree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NROctree.h; sourceTree = "<group>"; };
+		0B83EBF415E184510041D0D4 /* NRImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRImage.h; sourceTree = "<group>"; };
+		0B83EBF615E18B980041D0D4 /* NRRay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRRay.h; sourceTree = "<group>"; };
+		0B83EBF715E191700041D0D4 /* NRCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRCamera.h; sourceTree = "<group>"; };
+		0B83EBF815E196630041D0D4 /* NRPointLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRPointLight.h; sourceTree = "<group>"; };
+		0B83EBF915E196DD0041D0D4 /* NRBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRBox.h; sourceTree = "<group>"; };
+		0B83EBFA15E197EA0041D0D4 /* NRHitRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRHitRecord.h; sourceTree = "<group>"; };
+		0B83EBFB15E19B4D0041D0D4 /* NRLambertianMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRLambertianMaterial.h; sourceTree = "<group>"; };
+		0B83EBFC15E19CDB0041D0D4 /* NRScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRScene.h; sourceTree = "<group>"; };
+		0BAD5A3215E17C3E004BE083 /* NanoRay_C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoRay_C.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BAD5A3615E17C3E004BE083 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0BAD5A3915E17C3E004BE083 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0BAD5A3A15E17C3E004BE083 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0BAD5A3B15E17C3E004BE083 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BAD5A3E15E17C3E004BE083 /* NanoRay_C-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NanoRay_C-Info.plist"; sourceTree = "<group>"; };
+		0BAD5A4015E17C3E004BE083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BAD5A4215E17C3E004BE083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BAD5A4415E17C3E004BE083 /* NanoRay_C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NanoRay_C-Prefix.pch"; sourceTree = "<group>"; };
+		0BAD5A4615E17C3E004BE083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0BAD5A4815E17C3E004BE083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BAD5A4915E17C3E004BE083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BAD5A4C15E17C3F004BE083 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0BAD5A5315E17C4D004BE083 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0BAD5A5915E17D76004BE083 /* OpenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenView.h; sourceTree = "<group>"; };
+		0BAD5A5A15E17D76004BE083 /* OpenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenView.m; sourceTree = "<group>"; };
+		0BAD5A5C15E17DCC004BE083 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		0BAD5A6115E17F1A004BE083 /* OpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenViewController.h; sourceTree = "<group>"; };
+		0BAD5A6215E17F1B004BE083 /* OpenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenViewController.m; sourceTree = "<group>"; };
+		0BAD5A6415E18055004BE083 /* NRVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRVector.h; sourceTree = "<group>"; };
+		0BEB319415F04ED600DC3DD2 /* NRVoxel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRVoxel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BAD5A2F15E17C3E004BE083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2DD3DA15E47F5900F1C8A2 /* CoreGraphics.framework in Frameworks */,
+				0B2DD3D815E47D9B00F1C8A2 /* QuartzCore.framework in Frameworks */,
+				0BAD5A5D15E17DCC004BE083 /* Quartz.framework in Frameworks */,
+				0BAD5A5415E17C4D004BE083 /* OpenGL.framework in Frameworks */,
+				0BAD5A3715E17C3E004BE083 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BAD5A2715E17C3E004BE083 = {
+			isa = PBXGroup;
+			children = (
+				0BAD5A3C15E17C3E004BE083 /* NanoRay_C */,
+				0BAD5A3515E17C3E004BE083 /* Frameworks */,
+				0BAD5A3315E17C3E004BE083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BAD5A3315E17C3E004BE083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BAD5A3215E17C3E004BE083 /* NanoRay_C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BAD5A3515E17C3E004BE083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD3D915E47F5900F1C8A2 /* CoreGraphics.framework */,
+				0B2DD3D715E47D9B00F1C8A2 /* QuartzCore.framework */,
+				0BAD5A5C15E17DCC004BE083 /* Quartz.framework */,
+				0BAD5A5315E17C4D004BE083 /* OpenGL.framework */,
+				0BAD5A3615E17C3E004BE083 /* Cocoa.framework */,
+				0BAD5A3815E17C3E004BE083 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BAD5A3815E17C3E004BE083 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BAD5A3915E17C3E004BE083 /* AppKit.framework */,
+				0BAD5A3A15E17C3E004BE083 /* CoreData.framework */,
+				0BAD5A3B15E17C3E004BE083 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0BAD5A3C15E17C3E004BE083 /* NanoRay_C */ = {
+			isa = PBXGroup;
+			children = (
+				0BAD5A6015E17E92004BE083 /* NanoRay */,
+				0BAD5A4815E17C3E004BE083 /* AppDelegate.h */,
+				0BAD5A4915E17C3E004BE083 /* AppDelegate.m */,
+				0BAD5A4B15E17C3F004BE083 /* MainMenu.xib */,
+				0BAD5A3D15E17C3E004BE083 /* Supporting Files */,
+				0BAD5A5915E17D76004BE083 /* OpenView.h */,
+				0BAD5A5A15E17D76004BE083 /* OpenView.m */,
+				0BAD5A6115E17F1A004BE083 /* OpenViewController.h */,
+				0BAD5A6215E17F1B004BE083 /* OpenViewController.m */,
+			);
+			path = NanoRay_C;
+			sourceTree = "<group>";
+		};
+		0BAD5A3D15E17C3E004BE083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BAD5A3E15E17C3E004BE083 /* NanoRay_C-Info.plist */,
+				0BAD5A3F15E17C3E004BE083 /* InfoPlist.strings */,
+				0BAD5A4215E17C3E004BE083 /* main.m */,
+				0BAD5A4415E17C3E004BE083 /* NanoRay_C-Prefix.pch */,
+				0BAD5A4515E17C3E004BE083 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BAD5A6015E17E92004BE083 /* NanoRay */ = {
+			isa = PBXGroup;
+			children = (
+				0BAD5A6415E18055004BE083 /* NRVector.h */,
+				0B83EBF415E184510041D0D4 /* NRImage.h */,
+				0B83EBF615E18B980041D0D4 /* NRRay.h */,
+				0B83EBF715E191700041D0D4 /* NRCamera.h */,
+				0B83EBF815E196630041D0D4 /* NRPointLight.h */,
+				0B83EBF915E196DD0041D0D4 /* NRBox.h */,
+				0B83EBFA15E197EA0041D0D4 /* NRHitRecord.h */,
+				0B83EBFB15E19B4D0041D0D4 /* NRLambertianMaterial.h */,
+				0B83EBFC15E19CDB0041D0D4 /* NRScene.h */,
+				0B53B3A915EDA754001D8ACC /* NROctree.h */,
+				0BEB319415F04ED600DC3DD2 /* NRVoxel.h */,
+				0B42227B15F413A300DB7066 /* NRPoint.h */,
+			);
+			name = NanoRay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BAD5A3115E17C3E004BE083 /* NanoRay_C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BAD5A5015E17C3F004BE083 /* Build configuration list for PBXNativeTarget "NanoRay_C" */;
+			buildPhases = (
+				0BAD5A2E15E17C3E004BE083 /* Sources */,
+				0BAD5A2F15E17C3E004BE083 /* Frameworks */,
+				0BAD5A3015E17C3E004BE083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoRay_C;
+			productName = NanoRay_C;
+			productReference = 0BAD5A3215E17C3E004BE083 /* NanoRay_C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BAD5A2915E17C3E004BE083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Brandon Hoff";
+			};
+			buildConfigurationList = 0BAD5A2C15E17C3E004BE083 /* Build configuration list for PBXProject "NanoRay_C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BAD5A2715E17C3E004BE083;
+			productRefGroup = 0BAD5A3315E17C3E004BE083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BAD5A3115E17C3E004BE083 /* NanoRay_C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BAD5A3015E17C3E004BE083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAD5A4115E17C3E004BE083 /* InfoPlist.strings in Resources */,
+				0BAD5A4715E17C3E004BE083 /* Credits.rtf in Resources */,
+				0BAD5A4D15E17C3F004BE083 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BAD5A2E15E17C3E004BE083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAD5A4315E17C3E004BE083 /* main.m in Sources */,
+				0BAD5A4A15E17C3E004BE083 /* AppDelegate.m in Sources */,
+				0BAD5A5B15E17D76004BE083 /* OpenView.m in Sources */,
+				0BAD5A6315E17F1B004BE083 /* OpenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BAD5A3F15E17C3E004BE083 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BAD5A4015E17C3E004BE083 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BAD5A4515E17C3E004BE083 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BAD5A4615E17C3E004BE083 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0BAD5A4B15E17C3F004BE083 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BAD5A4C15E17C3F004BE083 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BAD5A4E15E17C3F004BE083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0BAD5A4F15E17C3F004BE083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0BAD5A5115E17C3F004BE083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NanoRay_C/NanoRay_C-Prefix.pch";
+				INFOPLIST_FILE = "NanoRay_C/NanoRay_C-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BAD5A5215E17C3F004BE083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NanoRay_C/NanoRay_C-Prefix.pch";
+				INFOPLIST_FILE = "NanoRay_C/NanoRay_C-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BAD5A2C15E17C3E004BE083 /* Build configuration list for PBXProject "NanoRay_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BAD5A4E15E17C3F004BE083 /* Debug */,
+				0BAD5A4F15E17C3F004BE083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BAD5A5015E17C3F004BE083 /* Build configuration list for PBXNativeTarget "NanoRay_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BAD5A5115E17C3F004BE083 /* Debug */,
+				0BAD5A5215E17C3F004BE083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BAD5A2915E17C3E004BE083 /* Project object */;
+}
